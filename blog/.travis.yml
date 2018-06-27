@@ -1,0 +1,30 @@
+language: node_js
+node_js: stable
+
+# S: Build Lifecycle
+#install:
+ # - npm install
+
+
+#before_script:
+ # - npm install -g gulp
+
+script:
+  - npm run docs:build
+
+after_script:
+  - cd docs/.vuepress/dist
+  - git init
+  - git config user.name "lifengsofts"
+  - git config user.email "lifengsofts@gmail.com"
+  - git add -A
+  - git commit -m "Update docs"
+  - git push --force --quiet "https://${GH_token}@${GH_REF}" master:master
+# E: Build LifeCycle
+
+branches:
+  only:
+    - blog
+env:
+ global:
+   - GH_REF: github.com/kingDuiDui/my-blog.git

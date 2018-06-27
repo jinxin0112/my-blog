@@ -1,0 +1,21 @@
+{
+  "name": "my-blog",
+  "version": "1.0.0",
+  "description": "blog by vuepress",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy": "gh-pages -d dist",
+    "deploy:build": "npm run docs:build && gh-pages -d dist"
+  },
+  "keywords": [
+    "king",
+    "blog"
+  ],
+  "author": "kkkking",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^1.2.0"
+  }
+}
