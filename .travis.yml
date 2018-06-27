@@ -27,4 +27,4 @@ branches:
     - blog
 env:
  global:
-   - GH_REF: github.com:kingDuiDui/my-blog.git
+   - GH_REF: github.com/kingDuiDui/my-blog.git
