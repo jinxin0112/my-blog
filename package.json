@@ -16,6 +16,7 @@
   "author": "kkkking",
   "license": "ISC",
   "devDependencies": {
-    "gh-pages": "^1.2.0"
+    "gh-pages": "^1.2.0",
+    "vuepress": "^0.10.2"
   }
 }
