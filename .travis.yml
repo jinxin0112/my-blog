@@ -14,6 +14,7 @@ script:
 
 after_script:
   - cd dist
+  - echo 'kkking.site' > CNAME
   - git init
   - git config user.name "kingDuiDui"
   - git config user.email "m18508218948@163.com"
