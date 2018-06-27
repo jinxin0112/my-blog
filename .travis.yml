@@ -13,7 +13,7 @@ script:
   - npm run docs:build
 
 after_script:
-  - cd docs/.vuepress/dist
+  - cd dist
   - git init
   - git config user.name "kingDuiDui"
   - git config user.email "m18508218948@163.com"
