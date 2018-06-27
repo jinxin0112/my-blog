@@ -15,8 +15,8 @@ script:
 after_script:
   - cd docs/.vuepress/dist
   - git init
-  - git config user.name "lifengsofts"
-  - git config user.email "lifengsofts@gmail.com"
+  - git config user.name "kingDuiDui"
+  - git config user.email "m18508218948@163.com"
   - git add -A
   - git commit -m "Update docs"
   - git push --force --quiet "https://${GH_token}@${GH_REF}" master:master
