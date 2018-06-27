@@ -17,8 +17,8 @@ after_script:
   - git init
   - git config user.name "kingDuiDui"
   - git config user.email "m18508218948@163.com"
-  - git add -A
-  - git commit -m "Update docs"
+  - git add .
+  - git commit -m 'deploy'
   - git push -f git@${GH_REF} master:master
 # E: Build LifeCycle
 
