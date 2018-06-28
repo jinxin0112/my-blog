@@ -6,11 +6,46 @@ module.exports = {
     repo: 'https://github.com/kingDuiDui/my-blog', // 添加 github 链接
 
     themeConfig: {
-        // 添加导航栏
         nav: [
-            { text: 'Home', link: '/' },
-            { text: 'Resume', link: '/my/' },
-            { text: 'GitHub', link: 'https://github.com/kingDuiDui/my-blog' },
-        ]
+            {
+                text: 'Blog',
+                items: [
+                    { text: 'JavaScript', link: '/Blog/javascript/' },
+                    { text: 'CSS', link: '/Blog/css/' },
+                    { text: 'Life', link: '/Blog/life/' },
+                    { text: 'Orther', link: '/Blog/orther/' }
+                ]
+            },
+            { text: 'Project', link: '/Project/' },
+            { text: 'Resume', link: '/Resume/' },
+            { text: 'Interview', link: '/Interview/' },
+            { text: 'GitHub', link: 'https://github.com/kingDuiDui/my-blog' }
+        ],
+        sidebar: {
+            '/Blog/javascript/': {
+                title: 'JavaScript',
+                collapsable: false,
+                children: [
+                    '',
+                    'prototype',
+                    'scope'
+                ]
+            },
+            '/Blog/css/': {
+                title: 'CSS',
+                collapsable: false,
+                children: ['/']
+            },
+            '/Blog/life/': {
+                title: 'Life',
+                collapsable: false,
+                children: ['/']
+            },
+            '/Blog/orther/': {
+                title: 'Orther',
+                collapsable: false,
+                children: ['/']
+            }
+        }
     }
 }
