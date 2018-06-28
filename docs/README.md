@@ -1,4 +1,6 @@
-'# Hello King!' 
-
-这里是首页
-<test></test>
+---
+home: true
+heroImage: /timg.png
+actionText: My Blog →
+actionLink: /guide/
+---
