@@ -22,7 +22,7 @@ module.exports = {
             { text: 'GitHub', link: 'https://github.com/kingDuiDui/my-blog' }
         ],
         sidebar: {
-            '/Blog/javascript/': {
+            '/Blog/javascript/': [{
                 title: 'JavaScript',
                 collapsable: false,
                 children: [
@@ -30,22 +30,22 @@ module.exports = {
                     'prototype',
                     'scope'
                 ]
-            },
-            '/Blog/css/': {
+            }],
+            '/Blog/css/': [{
                 title: 'CSS',
                 collapsable: false,
                 children: ['/']
-            },
-            '/Blog/life/': {
+            }],
+            '/Blog/life/': [{
                 title: 'Life',
                 collapsable: false,
                 children: ['/']
-            },
-            '/Blog/orther/': {
+            }],
+            '/Blog/orther/': [{
                 title: 'Orther',
                 collapsable: false,
                 children: ['/']
-            }
+            }]
         }
     }
 }
