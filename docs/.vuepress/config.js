@@ -36,11 +36,6 @@ module.exports = {
                 collapsable: false,
                 children: ['/']
             }],
-            '/Blog/life/': [{
-                title: 'Life',
-                collapsable: false,
-                children: ['/']
-            }],
             '/Blog/orther/': [{
                 title: 'Orther',
                 collapsable: false,
