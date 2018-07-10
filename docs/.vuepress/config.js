@@ -39,7 +39,10 @@ module.exports = {
             '/Blog/orther/': [{
                 title: 'Orther',
                 collapsable: false,
-                children: ['']
+                children: [
+                    '',
+                    'sql'
+                ]
             }]
         }
     }
