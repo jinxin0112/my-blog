@@ -43,6 +43,13 @@ module.exports = {
                     '',
                     'sql'
                 ]
+            }],
+            '/Project/': [{
+                title: 'Project',
+                collapsable: false,
+                children: [
+                    ''
+                ]
             }]
         }
     }
