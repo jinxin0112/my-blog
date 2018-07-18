@@ -48,7 +48,8 @@ module.exports = {
                 title: 'Project',
                 collapsable: false,
                 children: [
-                    ''
+                    '',
+                    'search'
                 ]
             }]
         }
