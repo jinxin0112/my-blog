@@ -51,6 +51,14 @@ module.exports = {
                     '',
                     'search'
                 ]
+            }],
+            '/Interview/': [{
+                title: 'Interview',
+                collapsable: false,
+                children: [
+                    '',
+                    'Interview'
+                ]
             }]
         }
     }
