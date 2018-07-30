@@ -28,7 +28,7 @@ module.exports = {
                 children: [
                     '',
                     'prototype',
-                    'scope'
+                    'eventLoop'
                 ]
             }],
             '/Blog/css/': [{
