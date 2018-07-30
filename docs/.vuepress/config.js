@@ -57,7 +57,8 @@ module.exports = {
                 collapsable: false,
                 children: [
                     '',
-                    'Interview'
+                    'Interview',
+                    'flex'
                 ]
             }]
         }
