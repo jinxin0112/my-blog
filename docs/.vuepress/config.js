@@ -59,7 +59,9 @@ module.exports = {
                     '',
                     'Interview',
                     'flex',
-                    'mvvm'
+                    'mvvm',
+                    'color',
+                    'router',
                 ]
             }]
         }
