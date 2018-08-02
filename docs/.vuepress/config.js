@@ -28,7 +28,8 @@ module.exports = {
                 children: [
                     '',
                     'prototype',
-                    'eventLoop'
+                    'eventLoop',
+                    'promise'
                 ]
             }],
             '/Blog/css/': [{
