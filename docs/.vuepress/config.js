@@ -63,9 +63,9 @@ module.exports = {
                     'mvvm',
                     'color',
                     'router',
+                    'debounce',
+                    'shareCookie',
                     'maxArr',
-                    'Debounce&throttle',
-                    'shareCookie'
                 ]
             }]
         }
