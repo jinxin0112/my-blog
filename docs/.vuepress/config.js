@@ -65,6 +65,7 @@ module.exports = {
                     'router',
                     'debounce',
                     'shareCookie',
+                    'xss',
                     'maxArr',
                 ]
             }]
