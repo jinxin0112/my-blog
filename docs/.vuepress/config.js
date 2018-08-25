@@ -27,6 +27,7 @@ module.exports = {
                 collapsable: false,
                 children: [
                     '',
+                    'http',
                     'stream',
                     'prototype',
                     'eventLoop',
