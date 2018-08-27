@@ -44,6 +44,7 @@ module.exports = {
                 collapsable: false,
                 children: [
                     '',
+                    'zoom',
                     'sql'
                 ]
             }],
