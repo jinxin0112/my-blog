@@ -45,6 +45,7 @@ module.exports = {
                 children: [
                     '',
                     'zoom',
+                    'jyzhp',
                     'sql'
                 ]
             }],
