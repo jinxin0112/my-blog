@@ -1,2 +1,3 @@
 ## my-blog
-create by vuepress.
+
+personal blog repository.
