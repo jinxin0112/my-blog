@@ -1,6 +1,6 @@
 # 常用git命令集合
 
-> 📝记录一些常用的 git 命令。 部分摘至 [廖学峰git教程](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
+> 📝记录一些常用的 git 命令, 部分摘至 [廖学峰git教程](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)。至于一些高级命令，平常用的很少，就不记录了（懒）。建议搭配 sourceTree 使用。
 
 ### 远端仓库
 
