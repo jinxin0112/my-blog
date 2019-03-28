@@ -21,7 +21,8 @@ module.exports = {
                     'promise',
                     'morethancode',
                     'zoom',
-                    'jyzhp'
+                    'jyzhp',
+                    'git'
                 ]
             }],
         }
