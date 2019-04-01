@@ -22,7 +22,8 @@ module.exports = {
                     'morethancode',
                     'zoom',
                     'jyzhp',
-                    'git'
+                    'git',
+                    'linux'
                 ]
             }],
         }
