@@ -14,7 +14,7 @@ module.exports = {
   dest: './dist', // 设置输出目录
   base: '', // 设置站点根路径
   repo: 'https://github.com/jinxin0112/my-blog', // 添加 github 链接
-
+  plugins: ['vuepress-plugin-cat'],
   themeConfig: {
     nav: [{ text: 'GitHub', link: 'https://github.com/jinxin0112/my-blog' }],
     sidebar: {

@@ -19,6 +19,9 @@
   "devDependencies": {
     "gh-pages": "^1.2.0",
     "glob": "^7.1.4",
-    "vuepress": "^0.10.2"
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.2.0",
+    "vuepress": "^1.0.3",
+    "vuepress-plugin-cat": "^1.0.2"
   }
 }
