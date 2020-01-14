@@ -8,7 +8,7 @@
   
   引用一张文中的图如下
 
-  ![能力图](https://raw.githubusercontent.com/kingDuiDui/my-blog/master/ali.png)
+  ![能力图](../img/ali.png)
 
   其不变部分为80%的能力，在我看来，能力分为已有能力和学习能力，已有能力能让我们将现有知识更好的应用，而学习能力评价一个人潜力的指标。
 
