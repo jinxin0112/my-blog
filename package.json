@@ -12,9 +12,10 @@
   },
   "keywords": [
     "king",
-    "blog"
+    "blog",
+    "jinxin0112"
   ],
-  "author": "kkkking",
+  "author": "jinxin0112",
   "license": "ISC",
   "devDependencies": {
     "gh-pages": "^1.2.0",
