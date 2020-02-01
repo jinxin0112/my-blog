@@ -1,3 +1,49 @@
 $accentColor = #e4393c
 $textColor = #2c3e50
 $codeBgColor = #282c34
+
+.home-blog {
+    padding: 0;    
+    & > .hero {
+        & > h1 {
+            margin: 20rem auto 1.8rem;
+        }
+    }
+}
+.footer-wrapper {
+    &>span:first-child {
+        display: none;
+    }
+}
+.comments-wrapper {
+    .vssue-header-comments-count {
+        & > span {
+            color: $accentColor;
+        }
+    }
+    .vssue-header-powered-by {
+        a {
+            color: $accentColor;
+        }
+    }
+    .vssue-new-comment-input {
+        background-color: #fff !important; 
+    }
+    .vssue-new-comment-input:focus {
+        border-color: $accentColor !important;
+        box-shadow: 0 0 1px 1px $accentColor !important;
+    }
+    .vssue-button:not(:disabled).vssue-button-primary {
+        color: $accentColor;
+        border-color: $accentColor;
+    }
+    .vssue-status {
+        color: $accentColor !important;
+        .vssue-icon {
+            color: $accentColor !important;
+        }
+    }
+    .vssue-body > .vssue-status-info {
+        color: $accentColor;
+    }
+}

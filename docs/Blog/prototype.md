@@ -1,4 +1,13 @@
-# 原型和原型链
+--- 
+title: 原型和原型链
+date: 2017-12-5
+sidebar: 'auto'
+tags:
+ - javascript
+categories: 
+ - 前端技术
+---
+
 
 ## 构造函数创建对象
 

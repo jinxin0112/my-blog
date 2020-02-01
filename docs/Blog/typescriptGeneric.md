@@ -1,4 +1,13 @@
-# typescript 常用工具泛型
+--- 
+title: typescript 常用工具泛型
+date: 2019-12- 13
+sidebar: 'auto'
+tags:
+ - typescript
+categories: 
+ - 前端技术
+---
+
 
 本文将介绍一些 typescript 中常用的工具泛型的使用和实现，部分在 typescript 内部已经实现
 
@@ -45,12 +54,12 @@ type Readonly<T> = { readonly [k in keyof T]: T[k] };
 type Mutable<T> = { -readonly [k in keyof T]: T[k] };
 ```
 
-## Record
+## 学习记录
 
 将 K 中所有的属性的值转化为 T 类型
 
 ```typescript
-type Record<K extends keyof any, T> = { [P in K]: T };
+type 学习记录<K extends keyof any, T> = { [P in K]: T };
 ```
 
 ## Pick

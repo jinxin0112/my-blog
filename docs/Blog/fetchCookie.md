@@ -1,4 +1,12 @@
-# fetch 中的 cookie 问题
+--- 
+title: fetch 中的 cookie 问题
+date: 2020-1-13
+tags:
+ - javascript
+categories: 
+ - 前端技术
+---
+
 
 fetch 发送请求默认是不发送 cookie 的，不管是同域还是跨域；那么问题就来了，对于那些需要权限验证的请求就可能无法正常获取数据，这时可以配置其 `credentials` 项，其有3个值：
 

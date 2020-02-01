@@ -1,4 +1,13 @@
-# 浅谈Promise
+--- 
+title: 浅谈Promise
+date: 2018-4-27
+sidebar: 'auto'
+tags:
+ - javascript
+categories: 
+ - 前端技术
+---
+
 
 ## 状态
 

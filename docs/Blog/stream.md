@@ -1,4 +1,13 @@
-# node 中的流(stream) 
+--- 
+title: node 中的流(stream) 
+date: 2018-1-2
+sidebar: 'auto'
+tags:
+ - node
+categories: 
+ - 前端技术
+---
+
 
 流(stream) 在node 中即是最重要的一部分也是相对较难的一部分，本文将详解流的一些正确打开方式
 
