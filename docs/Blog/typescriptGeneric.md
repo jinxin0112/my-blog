@@ -1,13 +1,12 @@
---- 
+---
 title: typescript 常用工具泛型
-date: 2019-12- 13
+date: 2019-12-13
 sidebar: 'auto'
 tags:
- - typescript
-categories: 
- - 前端技术
+    - typescript
+categories:
+    - 前端技术
 ---
-
 
 本文将介绍一些 typescript 中常用的工具泛型的使用和实现，部分在 typescript 内部已经实现
 
@@ -15,12 +14,12 @@ categories:
 
 在介绍这些泛型之前我们先理解一些 ts 中常用的关键字
 
-- `keyof` : keyof 可以用来取得一个对象接口的所有 key 值, 得到一个联合类型.
-- `typeof` : 推导变量类型.
-- `in` : in 则可以遍历枚举类型.
-- `infer` : 表示在 extends 条件语句中待推断的类型变量.
-- `never` : 可靠的，代表永远不会发生的类型.
-- `readonly` : 将属性标记为只读.
+-   `keyof` : keyof 可以用来取得一个对象接口的所有 key 值, 得到一个联合类型.
+-   `typeof` : 推导变量类型.
+-   `in` : in 则可以遍历枚举类型.
+-   `infer` : 表示在 extends 条件语句中待推断的类型变量.
+-   `never` : 可靠的，代表永远不会发生的类型.
+-   `readonly` : 将属性标记为只读.
 
 ## Partial
 
@@ -100,8 +99,8 @@ type Omit<T, K extends keyof any> = Pick<T, Exclude<keyof T, K>>;
 
 ```typescript
 type ReturnType<T extends (...args: any[]) => any> = T extends (...args: any[]) => infer R
-	? R
-	: never;
+    ? R
+    : never;
 ```
 
 ## Parameters
@@ -110,6 +109,6 @@ type ReturnType<T extends (...args: any[]) => any> = T extends (...args: any[]) 
 
 ```typescript
 type Parameters<T extends (...args: any[]) => any> = T extends (...args: infer P) => any
-	? P
-	: never;
+    ? P
+    : never;
 ```

@@ -1,13 +1,12 @@
---- 
+---
 title: 创建数组方法的 3 种方法
-date: 2020-1-22
+date: 2020-01-22
 sidebar: 'auto'
 tags:
- - javascript
-categories: 
- - 前端技术
+    - javascript
+categories:
+    - 前端技术
 ---
-
 
 本文旨在对创建不定长不定内容数组的方法总结
 
