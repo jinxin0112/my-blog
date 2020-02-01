@@ -12,7 +12,7 @@ function getChildren() {
 
 // dcos/.vuepress/config.js
 module.exports = {
-    title: 'JIN XIN', // 设置网站标题
+    title: 'Isabellae', // 设置网站标题
     dest: './dist', // 设置输出目录
     base: '', // 设置站点根路径
     repo: 'https://github.com/jinxin0112/my-blog', // 添加 github 链接
@@ -26,6 +26,7 @@ module.exports = {
     plugins: ['vuepress-plugin-cat', '@vuepress/medium-zoom', 'flowchart'],
     theme: 'reco',
     themeConfig: {
+        author: 'JIN XIN',
         type: 'blog',
         sidebarDepth: 1,
         startYear: '2017',
