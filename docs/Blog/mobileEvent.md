@@ -1,5 +1,5 @@
 ---
-title: IOS「橡皮筋」问题解决心
+title: IOS「橡皮筋」问题解决
 date: 2020-03-05
 sidebar: auto
 tags:
