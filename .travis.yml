@@ -1,22 +1,23 @@
 language: node_js
 node_js: stable
+cache: yarn
 
 # S: Build Lifecycle
 install:
-  - npm install
+  - yarn install
 
 
 #before_script:
  # - npm install -g gulp
 
 script:
-  - npm run docs:build
+  - yarn run docs:build
 
 after_script:
   - cd dist
   - echo 'kkking.site' > CNAME
   - git init
-  - git config user.name "thankdd"
+  - git config user.name "jinxin0112"
   - git config user.email "m18508218948@163.com"
   - git add .
   - git commit -m 'deploy'
@@ -28,4 +29,4 @@ branches:
     - blog
 env:
  global:
-   - GH_REF: github.com/thankdd/my-blog.git
+   - GH_REF: github.com/jinxin0112/my-blog.git
