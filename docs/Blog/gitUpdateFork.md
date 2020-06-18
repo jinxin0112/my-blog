@@ -1,7 +1,7 @@
 ---
 title: 如何更新 fork 的仓库
 date: 2020-06-18
-sidebar: auto
+sidebar: none
 tags:
   - git
 categories:
